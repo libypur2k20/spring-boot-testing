@@ -72,6 +72,5 @@ public class EmployeeControllerITests {
                 .andExpect(jsonPath("$.lastName", is(employee.getLastName())))
                 .andExpect(jsonPath("$.email", is(employee.getEmail())));
 
-
     }
 }

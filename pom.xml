@@ -26,14 +26,16 @@
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
 
-<!-- For Unit Testing -->
-<!--		<dependency>-->
-<!--			<groupId>com.h2database</groupId>-->
-<!--			<artifactId>h2</artifactId>-->
-<!--			<scope>runtime</scope>-->
-<!--		</dependency>-->
+		<!-- For Unit Testing -->
+		<!--
+		<dependency>
+			<groupId>com.h2database</groupId>
+			<artifactId>h2</artifactId>
+			<scope>runtime</scope>
+		</dependency>
+		-->
 
-<!-- For Integration Testing -->
+		<!-- For Integration Testing -->
 		<dependency>
 			<groupId>mysql</groupId>
 			<artifactId>mysql-connector-java</artifactId>
